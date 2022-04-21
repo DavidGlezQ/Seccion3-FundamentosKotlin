@@ -1,5 +1,10 @@
 package com.david_glez.seccion3_fundamentos_kotlin
 
+const val separator = "=========="
+/*Si sabemos cual es el valor de esa variable en tiempo de compilacion las buenas practicas dicen
+* que debemos de agregar const para que el valor de la constante sea asignado en tiempo de compilacion
+* y solo se usa de manera global*/
+
 fun main(){
     //print("Hola Kotlin")
     newTopic("Hola Kotlin desde funcion")
@@ -25,5 +30,5 @@ fun main(){
 
 fun newTopic(topic: String){
     //println(topic)
-    print("\n========== $topic ==========\n")
+    print("\n$separator $topic $separator\n")
 }

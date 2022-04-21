@@ -21,8 +21,7 @@ fun main(){
     showProducts("Soda", "10%")
     showProducts("Pan")
     showProducts("Caramelo", "%5")
-    showProducts("Agua", vigencia = "15 de marzo") // Argumentos nombrado
-
+    showProducts("Agua", vigencia = "15 de marzo") // Argumentos nombrados
 }
 
 private fun sayHello(): Unit { // Unit es lo mismo que void, en kotlin es redundante ya que por defecto lo hace Unit
